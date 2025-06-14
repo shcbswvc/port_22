@@ -1,6 +1,8 @@
 # Team port_22
 > Dhruv Mahajan, CM Shaik Abdul Rahim Batcha, Monisha P
 
+We have constructed two ways of breaking free from the algorithm.First being a passive way that gives us notifications and helps us work to our goal. The second method is more active and changes the algorithm itself via interactions. 
+
 ## Scroll Breaker
 
 A focus app that helps break scrolling habits using AI-powered notifications.
@@ -56,6 +58,10 @@ python -m src.demo
 - `src/notifications/`: Notification generation and templates
 - `src/database/`: Data persistence
 - `src/models/`: Data models
+
+## Active algorithm change:
+
+The main concept is that the user first gives input of the topics they like and so on, based on this the LLM generates some users that they should follow, the users followed help the algorithm change as the algorithm depends on who and how we interact with other accounts, due to Instagram being really good at detecting automated accounts, **I will advice not to use this script.**
 
 ## License
 
